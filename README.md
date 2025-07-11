@@ -15,3 +15,33 @@ MFA offers another layer of security infront of a password. Even if the attacker
 
 MFA options
 There are several MFA device options such as using a mobile device running a MFA app (Google Authenticator, Authy, etc...) or a universal 2nd factor security key eg. Yubikey by Yubico (supports multiple root and IAM users using a single key). Other MFA options includes hardware key fob by Gemalto or another by Surepass ID for AWS GovCloud. 
+
+AWS Access Keys, CLI and SDK
+
+Ways to access AWS
+- AWS management console (protected by password + MFA)
+- AWS Command Line Interface (protected by access keys)
+- AWS SDK (protected by access keys)
+
+Access keys can be generated from the AWS console. Users can manage their own access keys
+Access keys are secret, just like a password. They are not to be shared. Access key id = username and Access secret = password
+
+What is the AWS CLI
+
+AWS CLI tool allows you to interact with AWS services using command line shell. Offers direct access to the public API of AWS services. Scripts can be developed to manage your resources, it is also open source. 
+
+What is the AWS SDK?
+
+Similar to the AWS CLI, it allows you to access AWS services programmatically. Allows you to embed within your application(s). 
+Supported languages Java script, python, php, .net, ruby, java, Go, Nodes.JS, C++
+Mobile SDKs (Android, iOS)
+IoT devices SDKs (embedded C, Adunino)
+AWS CLI was built on AWS SDK for python
+
+How can users access AWS?
+
+
+
+
+
+
