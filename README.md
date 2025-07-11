@@ -10,4 +10,8 @@ Identity as a service is a global service. The first indictator to knowing a ser
 
 IAM MFA Overview
 
-MFA works as a prevention to security compromisation. Even if the attacker finds the password, the identity cannot be accessed unless the attacker gets ahold of the users physical device. There are several MFA device options such as using a mobile device running a MFA app (Google Authenticator, Authy, etc...) or a universal 2nd factor security key eg. Yubikey by Yubico (supports multiple root and IAM users using a single key). Other MFA options includes hardware key fob by Gemalto or another by Surepass ID for AWS GovCloud. 
+Introduction
+MFA offers another layer of security infront of a password. Even if the attacker finds the password, the identity cannot be accessed unless the attacker gets ahold of the users physical device. 
+
+MFA options
+There are several MFA device options such as using a mobile device running a MFA app (Google Authenticator, Authy, etc...) or a universal 2nd factor security key eg. Yubikey by Yubico (supports multiple root and IAM users using a single key). Other MFA options includes hardware key fob by Gemalto or another by Surepass ID for AWS GovCloud. 
