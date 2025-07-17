@@ -40,6 +40,16 @@ AWS CLI was built on AWS SDK for python
 
 How can users access AWS?
 
+IAM Guidelines & Best Practices
+- Don't use the root account except for AWS account setup
+- One Physical user = ONE AWS user eg. Create a unique credential per physical user
+- Assign users to groups and assign permission to groups
+- Strong PWD policy
+- Enforce MFA
+- Create roles for permissions to AWS services
+- Audit permissions using credential report and IAM access advisor
+- never share IAM users and keys
+
 
 
 
