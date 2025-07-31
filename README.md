@@ -50,6 +50,22 @@ IAM Guidelines & Best Practices
 - Audit permissions using credential report and IAM access advisor
 - never share IAM users and keys
 
+EC2 Basics
+
+Configuraiton Options
+
+OS - Linux / Windows / MacO0S
+How much Compute power and cores (CPU)
+RAM
+Storage
+  -  Network attached (EBS and EFS) - Readmore
+  -  Hardware EC2 instance store
+Network Card -  Speed of card / public ip addressing
+Firewall Rules - Security group
+Bootstrap script: EC2 User data
+Possible to bootstrap instances - Launches commands once on start.
+Bootstrapping is useful for updating instances 
+
 
 
 
