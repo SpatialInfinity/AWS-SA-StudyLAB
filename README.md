@@ -64,7 +64,10 @@ Network Card -  Speed of card / public ip addressing
 Firewall Rules - Security group
 Bootstrap script: EC2 User data
 Possible to bootstrap instances - Launches commands once on start.
-Bootstrapping is useful for updating instances 
+Bootstrapping is useful for updating instances
+
+## Security Group
+
 
 
 
