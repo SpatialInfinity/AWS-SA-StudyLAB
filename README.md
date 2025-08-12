@@ -71,13 +71,13 @@ Bootstrapping is useful for updating instances
 
 
 
-##EC2 - Solutions Architect
+## EC2 - Solutions Architect
 
-###Private vs Public vs Elastic IP
+### Private vs Public vs Elastic IP
 IPv4 allows for 3.7 billion combinations 
 IPv6 mainly used for IoT
 
-##Elastic IP
+### Elastic IP
 Max 5 per account
 Allows for you to quickly reassign IP to a different instance
 There is an hourly charge for inuse and idle usage for IPv4 address $0.005
