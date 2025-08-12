@@ -18,6 +18,7 @@ There are several MFA device options such as using a mobile device running a MFA
 
 ### AWS Access Keys, CLI and SDK
 
+
 ### Ways to access AWS
 - AWS management console (protected by password + MFA)
 - AWS Command Line Interface (protected by access keys)
@@ -68,6 +69,20 @@ Bootstrapping is useful for updating instances
 
 ## Security Group
 
+
+
+##EC2 - Solutions Architect
+
+###Private vs Public vs Elastic IP
+IPv4 allows for 3.7 billion combinations 
+IPv6 mainly used for IoT
+
+##Elastic IP
+Max 5 per account
+Allows for you to quickly reassign IP to a different instance
+There is an hourly charge for inuse and idle usage for IPv4 address $0.005
+Free tier account allows for 750 hours per months IPv4 address regardless of instance type
+Elastic IP is associated with instance id and private ip address
 
 
 
