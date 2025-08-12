@@ -94,6 +94,19 @@ Elastic IP is associated with instance id and private ip address
   Use cases of partitions are big data type of apps such as HDFS HBASE Casanadra and KAFKA
 
 ### Practice placement groups
+Look into more videos on placement groups and test
+
+### Elastic Netwokr Interfaces (ENI)
+- Each ENI can have 1 or more private IPV4
+- One Elastic IP (IPV4) per private IPV4
+- One Public IPV4
+- One or more security groups
+- A MAC address
+- ENI can be created independently and attach on the fly to other EC2 instances
+- Bounded to specific AZ
+
+- 
+
 
 
 
