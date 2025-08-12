@@ -84,6 +84,17 @@ There is an hourly charge for inuse and idle usage for IPv4 address $0.005
 Free tier account allows for 750 hours per months IPv4 address regardless of instance type
 Elastic IP is associated with instance id and private ip address
 
+### Placement groups
+- Up to 7 partitions per AZ
+- Can span across multiple AZs in the same region
+- Up to 100s of EC2 instances
+- The instances in a partiion do not share racks with the instances in the other partitions
+- A partition failure can affect many EC2 but won't affect other partitions
+- EC2 stances get access to the partition information as meta data
+  Use cases of partitions are big data type of apps such as HDFS HBASE Casanadra and KAFKA
+
+### Practice placement groups
+
 
 
 
