@@ -105,6 +105,17 @@ Look into more videos on placement groups and test
 - ENI can be created independently and attach on the fly to other EC2 instances
 - Bounded to specific AZ
 
+
+### EC2 Hibernate
+- Supported instances famillies
+- EBS volume must be encrypted in order for hibernate to work
+
+Study more on placement groups and EC2 hibernation
+
+## HA and Scalability ELB and ASG
+
+### HA and Scalability 
+
 - 
 
 
