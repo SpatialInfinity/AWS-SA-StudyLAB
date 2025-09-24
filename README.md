@@ -130,10 +130,21 @@ Study more on placement groups and EC2 hibernation
 - An instance can support more than 1 EBS volume
 - Delete on terminatin of EC2 can be activated - by default off
 
+### EBS Hands On
 
+
+### EBS Snapshots
+
+- Not necessary to detach EBS in order to snapshot
+- Make backup of EBS volume at a point in time
+- Can copy snapshot across AZ or Region
+- EBS snapshots can be moved to an archive tier which is 75% cheaper
+- 
   
 
+## Snapshot Lab
 
+- 
 
 
 
