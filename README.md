@@ -142,8 +142,17 @@ Study more on placement groups and EC2 hibernation
 - 
   
 
-## Snapshot Lab
+### Snapshot Lab
 
+- During snapshot creation, snapshot can be restored into a different AZ
+- Retention rules can be adjusted to prevent accidental deletion.
+- To move the snapshot to a different region, a snapshot must be first taken and then copied to the desired region
+
+### AMI Overview
+
+- AMI = Amazon Machine Image
+- AMI are a customisation of an EC2 instance, own software, config , etc can be added. Faster boot / config time of all software is pre-packaged.
+- AMI built for a specific region (can be copied across regions)
 - 
 
 
