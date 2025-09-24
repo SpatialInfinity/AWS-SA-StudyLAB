@@ -69,8 +69,6 @@ Bootstrapping is useful for updating instances
 
 ## Security Group
 
-
-
 ## EC2 - Solutions Architect
 
 ### Private vs Public vs Elastic IP
@@ -96,7 +94,7 @@ Elastic IP is associated with instance id and private ip address
 ### Practice placement groups
 Look into more videos on placement groups and test
 
-### Elastic Netwokr Interfaces (ENI)
+### Elastic Network Interfaces (ENI)
 - Each ENI can have 1 or more private IPV4
 - One Elastic IP (IPV4) per private IPV4
 - One Public IPV4
@@ -116,7 +114,24 @@ Study more on placement groups and EC2 hibernation
 
 ### HA and Scalability 
 
-- 
+
+## EC2 Instance Storage
+
+### What's An EBS Volume?
+- An Elastic Block Store which is a network drive
+- Allows your data to exist, even after their termination
+- They can only be mounted to one instance at a time
+- Network Drive -  latency needs to be considered, detachable and mountable to other Instances
+- Locks to an AZ - to move volume, you will need to snapshot the volume
+- Provisioned capacity ( GBs size and IOPS )
+- Billed for all provisioned capacity
+- Capacity can be increased
+- Cannot be provisioned 2 instances at a time
+- An instance can support more than 1 EBS volume
+- Delete on terminatin of EC2 can be activated - by default off
+
+
+  
 
 
 
