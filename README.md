@@ -156,13 +156,13 @@ Study more on placement groups and EC2 hibernation
 - 
 
 
-EC2 Instance Store
+### EC2 Instance Store
 
 Since EBS Volumes are network drives, there is latency involved so another way to have high performing storage. A physically attached drive would be the ideal option. Better I/O performance will be seen, EC2 instance store goes offline, if the EC2 instance is stopped. Having an EC2 instance store it is good for buffer / cache / scratch data and temporary content. Risk total data loss if hardware fails. It is most definitely not an ideal option for long term storage
 
-EBS Volume Types
+### EBS Volume Types
 
-EBS Volumes comes in 6 types
+### EBS Volumes comes in 6 types
 GP2 / GP3 (SSD) - General purpose SSD volume. Price and performance can be balanced - usable as boot volume
 io1 / io2 block express (SSD) - Highest performance SSD volume for mission critical, low latency or high throughput type of workloads - usable as boot volume
 st I (HDD) - Low cost HDD volume for frequently accessed throughput intensive workloads 
@@ -170,21 +170,21 @@ sc 1 (HDD) - lowest cost HDD for low frequency usage
 
 EBS Volumes defined by SIZE / THROUGHPUT  / IOPS (I/O Ops Per Sec)
 
-General Purpose SSD
+#### General Purpose SSD
 Cost effective network storage, low latency
 1 GB to 16 TB
-GP3
+#### GP3
 Base Line of 3000 IOPS / 125 MiB/s throughput
 IOPS up to 16,000 throughput up to 1000 MiB/s
 More control
-GP2
+#### GP2
 Small GP2 Volumes, bursts IOPS to 3000
 Size of the volume and IOPS are linked, max IOPS is 16,000
 2 IOPS per GB at 5334 GB max ops potential
 performance varies based on storage level
 
 
-EBS Volume Types
+###EBS Volume Types
 
 
 
